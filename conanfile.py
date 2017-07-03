@@ -9,7 +9,7 @@ class SdlttfConan(ConanFile):
     url = "<Package recipe repository url here, for issues about the package>"
     settings = "os", "compiler", "build_type", "arch"
     generators = "cmake"
-    requires = "SDL2/2.0.5@hi3c/experimental", "freetype/2.8@hi3c/experimental"
+    requires = "SDL2/2.0.5_1@hi3c/experimental", "freetype/2.8@hi3c/experimental"
     exports = "CMakeLists.txt"
 
     def source(self):
